@@ -11,39 +11,48 @@ body {
 
 .wrapper {
   width: 100%;
-  min-height: 100vh;
+  min-height: fit-content;
   background-color: #1E201E;
   display: flex;
   justify-content: space-between;
   align-items: top;
   margin: auto;
   position: relative;
+  padding: 20px 15px;
+
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
-  vertical-align: middle;
 }
 
 .logo a {
   font-size: 24px;
   color: aliceblue;
   font-family: "Inter", sans-serif;
-  vertical-align: middle;
   text-decoration: none;
 }
 
 .menu {
   display: flex;
   position: sticky;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu ul {
   list-style: none;
   display: flex;
-  gap: 20px; /* Tambahkan spasi antar item menu */
+  gap: 20px; 
 }
 
 .menu ul li {
@@ -58,5 +67,17 @@ body {
 
 .menu ul li a:hover {
   text-decoration: underline;
+}
+
+.content {
+  height: 100vh;
+  background-image: url(966314.jpg);
+  background-size: cover;
+}
+
+.peler {
+  height: 100vh;
+  background-image: url(1268195.png);
+  background-size: cover;
 }
 
