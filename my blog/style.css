@@ -81,3 +81,21 @@ body {
   background-size: cover;
 }
 
+.main-text {
+  padding-top: 180px;
+  padding-left: 30px;
+  padding-right: 100vh;
+}
+
+.main-text h6 {
+  padding-bottom: 15px;
+}
+
+.main-text p {
+  padding-top: 30px;
+}
+
+.main-text img {
+  margin-top:-330px;
+  padding-left: 110vh;
+}
