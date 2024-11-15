@@ -19,6 +19,7 @@ body {
   margin: auto;
   position: relative;
   padding: 20px 15px;
+  position: sticky;
 
 }
 
@@ -73,29 +74,48 @@ body {
   height: 100vh;
   background-image: url(966314.jpg);
   background-size: cover;
+  padding-top: 40vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-bottom: 40vh;
 }
 
 .peler {
+  margin-top: 40vh;
   height: 100vh;
   background-image: url(1268195.png);
   background-size: cover;
 }
 
 .main-text {
-  padding-top: 180px;
+  padding-top: 100px;
   padding-left: 30px;
-  padding-right: 100vh;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  margin-top: -200px;
+  margin-bottom: 500px;
+  background: rgba(225, 225, 225, 0.8); 
+  border-radius: 15px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border: none; 
 }
 
+
 .main-text h6 {
-  padding-bottom: 15px;
+  padding-bottom: 50px;
 }
 
 .main-text p {
   padding-top: 30px;
+  margin-right: 350px;
+  text-align: justify;
 }
 
 .main-text img {
-  margin-top:-330px;
-  padding-left: 110vh;
+  margin-top: -220px;
+  float: right; 
+  margin-left: 20px; 
+  width: 200px; 
+  height: auto; 
 }
+
